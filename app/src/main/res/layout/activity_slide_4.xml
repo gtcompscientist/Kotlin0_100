@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".slide4Basics.Slide4Activity">
+
+    <Button android:id="@+id/callFirst"
+            android:onClick="onClick"
+            android:text="Must Click First!"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/crashFirst"
+            android:onClick="onClick"
+            android:text="Will Crash If Clicked First!"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/name"
+            android:onClick="onClick"
+            android:text="What's my name?"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+</LinearLayout>

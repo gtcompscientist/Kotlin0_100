@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".slide3FirstNotes.Slide3Activity">
+
+    <Button android:id="@+id/returnSomething"
+            android:onClick="onClick"
+            android:text="Return Something"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/returnUnit"
+            android:onClick="onClick"
+            android:text="Return Without Anything"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/returnOpposite"
+            android:onClick="onClick"
+            android:text="Return Opposite"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/returnNothing"
+            android:onClick="onClick"
+            android:text="Return Nothing"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+</LinearLayout>
