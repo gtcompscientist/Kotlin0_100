@@ -32,7 +32,9 @@ class Slide6Activity: Activity() {
             R.id.testList -> Example.testList
             else -> throw IndexOutOfBoundsException("What the heck was that!?")
         }
-        find(R.id.listOutput).text = toastAny.fold("") { acc, item -> "$acc${if(acc.isNotBlank()) ", " else ""}$item" }
+        find(R.id.listOutput).text = toastAny.fold("") { acc, item ->
+            "$acc${if(acc.isNotBlank()) ", " else ""}$item"
+        }
         if (toastAny is List<*>)
             Example.testList = toastAny as? List<Thing> ?: return
     }

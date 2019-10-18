@@ -13,7 +13,7 @@ class Example {
     }
 
     //The return type of Unit here is redundant, and simply demonstrative
-    fun thisWillReturnWithoutAnything(b: Boolean?): Unit {
+    fun thisWillReturnWithoutAnything(b: Boolean?) {
         //Note that the `if` clause is comparing to `true` because we've passed in a potentially null Boolean
         println(if (b == true) thisCanBeChanged else thisCantBeChanged)
     }
